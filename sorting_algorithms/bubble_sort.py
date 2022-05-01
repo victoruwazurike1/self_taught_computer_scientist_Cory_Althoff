@@ -4,5 +4,4 @@ def bubble_sort(a_list):
         for j in range(list_length):
             if a_list[j] > a_list[j + 1]:
                 a_list[j], a_list[j + 1] = a_list[j + 1], a_list[j]
-    
     return a_list
