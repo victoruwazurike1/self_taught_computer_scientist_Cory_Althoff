@@ -1,3 +1,6 @@
+# Because a bubble sort uses two nested loops, the
+# time complexity is O(n ** 2)
+# Bubble sort is a stable sorting algorithm
 def bubble_sort(a_list):
     list_length = len(a_list) - 1
     for i in range(list_length):
