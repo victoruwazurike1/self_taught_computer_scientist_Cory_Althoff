@@ -1,3 +1,3 @@
-# self_taught_computer_scientist_Cory_Althoff
+# Self Taught Computer Scientist by Cory Althoff
 
 This is a code-along repository for the Self Taught Computer Scientist by Cory Althoff
