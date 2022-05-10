@@ -1,4 +1,5 @@
 # This is a recursive sorting algorithm
+# This is also a stable sort
 
 def merge_sort(a_list):
     if len(a_list) > 1:
