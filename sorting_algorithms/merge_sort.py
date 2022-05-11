@@ -1,5 +1,7 @@
 # This is a recursive sorting algorithm
 # This is also a stable sort
+# It is a kind of divide and conquer algorithm
+# Has a time complexity of O(nlogn)
 
 def merge_sort(a_list):
     if len(a_list) > 1:
