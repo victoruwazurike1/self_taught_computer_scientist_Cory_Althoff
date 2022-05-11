@@ -30,3 +30,8 @@ def merge_sort(a_list):
             a_list[a_list_ind] = right_half[right_ind]
             right_ind += 1
             a_list_ind += 1
+        return a_list
+
+
+a_list = [5, 2, 8, 4]
+print(merge_sort(a_list))

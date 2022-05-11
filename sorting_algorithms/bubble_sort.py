@@ -8,3 +8,7 @@ def bubble_sort(a_list):
             if a_list[j] > a_list[j + 1]:
                 a_list[j], a_list[j + 1] = a_list[j + 1], a_list[j]
     return a_list
+
+
+a_list = [5, 2, 8, 4]
+print(bubble_sort(a_list))
