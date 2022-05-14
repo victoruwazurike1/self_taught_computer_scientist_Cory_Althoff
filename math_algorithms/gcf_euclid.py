@@ -1,3 +1,4 @@
+# The time complexity is logarithmic compared to the other algorithm
 def gcf(x, y):
     if y == 0:
         x, y = y, x
