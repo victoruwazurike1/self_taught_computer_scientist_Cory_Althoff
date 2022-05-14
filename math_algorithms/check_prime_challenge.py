@@ -10,6 +10,6 @@ def is_prime(n):
         return False
     top_div = math.floor(math.sqrt(n))
     for i in range(3, 1 + top_div, 2):
-        if n % 1 == 0:
+        if n % i == 0:
             return False
     return True
