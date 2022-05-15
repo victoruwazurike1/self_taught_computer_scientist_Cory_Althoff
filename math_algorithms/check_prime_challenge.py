@@ -2,6 +2,7 @@ import math
 
 
 def is_prime(n):
+    # This is a more efficient way of finding prime numbers
     if n <= 1:
         return False
     if n == 2:
