@@ -57,6 +57,18 @@ class LinkedList:
             current = next
         self.head = previous
 
+    def detect_cycle(self):
+        slow = self.head
+        fast = self.head
+        while True:
+            try:
+                slow = slow.next
+                fast = fast.next.next
+                if slow is fast:
+                    return True
+            except slow is not fast:
+                return False
+
     def __str__(self):
         node = self.head
         while node is not None:
