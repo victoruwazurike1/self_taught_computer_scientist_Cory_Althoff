@@ -46,7 +46,7 @@ class LinkedList:
                 previous.next = target.next
             previous = current
             current = current.next
-    
+
     def reverse_list(self):
         current = self.head
         previous = None
