@@ -69,22 +69,26 @@ class LinkedList:
             except slow is not fast:
                 return False
 
-    def __str__(self):
-        node = self.head
-        while node is not None:
-            print(node.data)
-            node = node.next
+    def print_list(self):
+        current = self.head
+        while current.next:
+            current = current.next
+            print(current.data)
 
 
 a_list = LinkedList()
+a_list.append('Monday')
 a_list.append('Tuesday')
 a_list.append('Wednesday')
-print(a_list.search('Tuesday'))
+a_list.append('Thursday')
+a_list.append('Friday')
+a_list.append('Saturday')
+print(a_list.print_list())
 
 
-d = deque()
-d.append('Harry')
-d.append('Potter')
+# d = deque()
+# d.append('Harry')
+# d.append('Potter')
 
 
 # print(a_list)
