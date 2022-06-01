@@ -78,6 +78,7 @@ class LinkedList:
 
 a_list = LinkedList()
 a_list.append('Monday')
+a_list.append('Monday')
 a_list.append('Tuesday')
 a_list.append('Wednesday')
 a_list.append('Thursday')
